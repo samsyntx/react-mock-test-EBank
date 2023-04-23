@@ -1,0 +1,39 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #183b56;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+}
+
+.bank-logo {
+  height: 80px;
+  width: 160px;
+}
+
+.logout-button {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  height: 40px;
+  width: 120px;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+}
+@media all and (max-width: 768px) {
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .bank-logo {
+    width: 150px;
+    height: 30px;
+  }
+}
